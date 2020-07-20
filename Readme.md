@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Кирилл Волков](https://up.htmlacademy.ru/adaptive/20/user/1184141).
-* Наставник: [Дмитрий Мирошниченко] (https://htmlacademy.ru/profile/id591417).
+* Наставник: [Дмитрий Мирошниченко](https://htmlacademy.ru/profile/id591417).
 
 ---
 
