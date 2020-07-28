@@ -1,0 +1,34 @@
+.about-products {
+  margin-bottom: 42px;
+
+  font-family: $arial;
+}
+
+.about-products__title {
+  margin: 0;
+  margin-bottom: 38px;
+
+  font-family: $oswald;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.about-products__list {
+  margin: 0;
+  padding: 0;
+}
+
+.about-products__item {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $dark-grey;
+  list-style: none;
+}
+
+.about-products__item:last-child {
+  margin-bottom: 0;
+}

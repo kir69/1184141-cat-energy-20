@@ -1,0 +1,43 @@
+.programms-categories-item {
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-right: 33px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+
+  background-color: $grey;
+
+  list-style: none;
+}
+
+.programms-categories-item:last-child {
+  margin-bottom: 0;
+}
+
+.programms-categories-item__title {
+  margin: 0;
+
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.programms-categories-item__text {
+  margin: 0;
+
+  font-family: $arial;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $dark-grey;
+}
+
+.programms-categories-item__link {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: $black;
+  text-transform: uppercase;
+  text-decoration: none;
+}

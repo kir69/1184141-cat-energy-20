@@ -1,1 +1,32 @@
-// Начните писать стили здесь
+// Переменные
+@import "global/variables.scss";
+
+// Шрифты
+@import "global/fonts.scss";
+
+// Базовые параметры
+@import "global/global.scss";
+
+// Общие блоки
+@import "blocks/general/container.scss";
+@import "blocks/general/copyright.scss";
+@import "blocks/general/main-nav.scss";
+@import "blocks/general/page-footer.scss";
+@import "blocks/general/page-header.scss";
+@import "blocks/general/page-main.scss";
+@import "blocks/general/site-list.scss";
+@import "blocks/general/social.scss";
+
+// Главная
+@import "blocks/index/about-products.scss";
+@import "blocks/index/programms-categories.scss";
+@import "blocks/index/programms-categories-item.scss";
+@import "blocks/index/promo-programms.scss";
+
+// Каталог
+@import "blocks/catalog/all-item.scss";
+@import "blocks/catalog/catalog.scss";
+@import "blocks/catalog/catalog-item.scss";
+@import "blocks/catalog/info-table.scss";
+
+// Форма
