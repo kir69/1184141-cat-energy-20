@@ -15,8 +15,6 @@
 }
 
 .programms-categories-item__title {
-  margin: 0;
-
   font-size: 24px;
   line-height: 37px;
   font-weight: 400;
@@ -24,20 +22,12 @@
 }
 
 .programms-categories-item__text {
-  margin: 0;
-
   font-family: $arial;
   font-size: 14px;
   line-height: 18px;
-  font-weight: 400;
-  color: $dark-grey;
 }
 
 .programms-categories-item__link {
-  font-size: 16px;
   line-height: 16px;
-  font-weight: 400;
   color: $black;
-  text-transform: uppercase;
-  text-decoration: none;
 }
