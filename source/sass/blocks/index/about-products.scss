@@ -1,0 +1,25 @@
+.about-products {
+  margin-bottom: 42px;
+
+  font-family: $arial;
+}
+
+.about-products__title {
+  margin-bottom: 38px;
+
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.about-products__item {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 18px;
+  list-style: none;
+}
+
+.about-products__item:last-child {
+  margin-bottom: 0;
+}

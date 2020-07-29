@@ -1,0 +1,24 @@
+.all-item {
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.all-item__title-more {
+  line-height: 20px;
+  font-weight: 400;
+  color: $special-black;
+  text-transform: uppercase;
+}
+
+.all-item__text-more {
+
+  font-family: $arial;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.all-item__btn-more {
+  background-color: $grey;
+
+  line-height: 0px;
+}

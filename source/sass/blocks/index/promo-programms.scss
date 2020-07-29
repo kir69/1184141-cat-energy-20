@@ -1,0 +1,26 @@
+.promo-programms {
+  width: 320px;
+
+  background-image: url("../img/index-background-mobile@1x.jpg");
+
+  color: $white;
+}
+
+.promo-programms__title {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.promo-programms__text {
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.promo-programms__link {
+  background-color: $green;
+
+  font-size: 14px;
+  line-height: 18px;
+}
