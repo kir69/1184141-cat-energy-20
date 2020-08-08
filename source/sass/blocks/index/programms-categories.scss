@@ -1,4 +1,23 @@
 .programms-categories {
   margin-top: 22px;
   margin-bottom: 27px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+    margin-bottom: 45px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 85px;
+    margin-bottom: 71px;
+  }
+}
+
+.programms-categories__list {
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
 }

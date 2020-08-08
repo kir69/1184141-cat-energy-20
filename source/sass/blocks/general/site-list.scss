@@ -7,3 +7,15 @@
 .site-list__link {
   color: $black;
 }
+
+.site-list {
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    width: 440px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 478px;
+  }
+}

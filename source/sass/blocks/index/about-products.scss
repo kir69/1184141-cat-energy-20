@@ -4,6 +4,25 @@
   font-family: $arial;
 }
 
+.about-products__list {
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 37px;
+    grid-column-gap: 153px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 80px;
+  }
+}
+
 .about-products__title {
   margin-bottom: 38px;
 
@@ -18,6 +37,14 @@
   font-size: 14px;
   line-height: 18px;
   list-style: none;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+  }
 }
 
 .about-products__item:last-child {

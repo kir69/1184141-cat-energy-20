@@ -1,10 +1,30 @@
 .catalog-item {
+  display: flex;
+  flex-wrap: wrap;
   padding-top: 19px;
   padding-right: 18px;
   padding-bottom: 25px;
   padding-left: 20px;
 
-  list-style: none;
+  @media (min-width: $tablet-width) {
+    display: block;
+
+    background-color: $grey;
+  }
+
+  @media (min-width: $tablet-width) {
+    display: block;
+
+    background-color: $grey;
+  }
+}
+
+.catalog-item__info {
+  max-width: 150px;
+}
+
+.catalog-item__img-link {
+  width: 78px;
 }
 
 .catalog-item__title-link {
@@ -13,8 +33,9 @@
   color: $special-grey;
 }
 
+
 .catalog-item__btn-order {
   background-color: $green;
 
-  line-height: 0px;
+  line-height: 16px;
 }
