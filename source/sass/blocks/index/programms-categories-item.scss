@@ -8,10 +8,23 @@
   background-color: $grey;
 
   list-style: none;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 80px;
+    margin-bottom: 0;
+  }
 }
 
 .programms-categories-item:last-child {
   margin-bottom: 0;
+
+  @media (min-width: $desktop-width) {
+    margin-right: 0;
+  }
 }
 
 .programms-categories-item__title {
